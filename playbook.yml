@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+  roles:
+    - ansible-role-virtualbox
+    - ansible-role-vagrant
+
+  vars:
+    docker_daemon_dns: ["8.8.8.8"]
+    docker_daemon_storage_driver: aufs

@@ -1,0 +1,9 @@
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/beardedN5rd/prepare4ansible.git
+[submodule "roles/ansible-role-virtualbox"]
+	path = roles/ansible-role-virtualbox
+	url = https://github.com/beardedN5rd/ansible-role-virtualbox.git
+[submodule "roles/ansible-role-vagrant"]
+	path = roles/ansible-role-vagrant
+	url = https://github.com/beardedN5rd/ansible-role-vagrant.git

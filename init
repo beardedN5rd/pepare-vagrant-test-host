@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#install ansible
+. ./scripts/install_on_ubuntu.sh
+
+#run ansible
+sudo ansible-playbook -i "localhost", -c local playbook.yml -e "docker_users=${USER}"
